@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML List Summaries</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: normal;
+            margin-bottom: 20px;
+            margin-top: 40px;
+        }
+
+        h1:first-child {
+            margin-top: 0;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 40px;
+            margin-bottom: 40px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        code {
+            color: #c7254e;
+            background-color: #f9f2f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 90%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+            margin-bottom: 40px;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            vertical-align: top;
+            border-bottom: 1px solid #ddd;
+            font-size: 16px;
+        }
+
+        th {
+            font-weight: bold;
+            background-color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f1f1f1;
+        }
+
+        .tag-link {
+            text-decoration: underline;
+            color: #000;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Chapter Summary</h1>
+    <ul>
+        <li>Use the HTML <code>&lt;ul&gt;</code> element to define an unordered list</li>
+        <li>Use the CSS <code>list-style-type</code> property to define the list item marker</li>
+        <li>Use the HTML <code>&lt;li&gt;</code> element to define a list item</li>
+        <li>Lists can be nested</li>
+        <li>List items can contain other HTML elements</li>
+        <li>Use the CSS property <code>float:left</code> to display a list horizontally</li>
+    </ul>
+
+    <h1>Chapter Summary</h1>
+    <ul>
+        <li>Use the HTML <code>&lt;ol&gt;</code> element to define an ordered list</li>
+        <li>Use the HTML <code>type</code> attribute to define the numbering type</li>
+        <li>Use the HTML <code>&lt;li&gt;</code> element to define a list item</li>
+        <li>Lists can be nested</li>
+        <li>List items can contain other HTML elements</li>
+    </ul>
+
+    <h1>HTML List Tags</h1>
+    <table>
+        <tr>
+            <th style="width: 20%;">Tag</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><span class="tag-link">&lt;ul&gt;</span></td>
+            <td>Defines an unordered list</td>
+        </tr>
+        <tr>
+            <td><span class="tag-link">&lt;ol&gt;</span></td>
+            <td>Defines an ordered list</td>
+        </tr>
+        <tr>
+            <td><span class="tag-link">&lt;li&gt;</span></td>
+            <td>Defines a list item</td>
+        </tr>
+        <tr>
+            <td><span class="tag-link">&lt;dl&gt;</span></td>
+            <td>Defines a description list</td>
+        </tr>
+        <tr>
+            <td><span class="tag-link">&lt;dt&gt;</span></td>
+            <td>Defines a term in a description list</td>
+        </tr>
+        <tr>
+            <td><span class="tag-link">&lt;dd&gt;</span></td>
+            <td>Describes the term in a description list</td>
+        </tr>
+    </table>
+
+</body>
+</html>
