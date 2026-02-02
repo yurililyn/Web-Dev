@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #f0f2f5;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box {
+    display: flex;
+    align-items: flex-start;
+}
+
+.logo {
+    color: #1877f2;
+    font-size: 60px;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+.left-column {
+    width: 500px;
+    margin-top: 40px;
+    margin-right: 32px;
+}
+
+.left-column p {
+    font-size: 28px;
+    line-height: 32px;
+    margin-top: 0;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    height: 52px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    box-sizing: border-box;
+}
+
+.login-button {
+    background: #1877f2;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.create-new-acc {
+    background: #42b72a;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.forgot-password {
+    margin-top: 15px;
+    text-decoration: none;
+    color: #1877f2;
+    align-self: center;
+    font-size: 14px;
+}
+
+.line {
+    margin: 20px;
+    color: rgb(192, 188, 188);
+    border: none;
+    border-top: 1px solid #d9dce1;
+}
+
+.bottom-text {
+    display: block;
+    text-align: center;
+}
