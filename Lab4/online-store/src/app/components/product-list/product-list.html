@@ -1,0 +1,33 @@
+<div class="catalog-container">
+  
+  <div class="product-grid">
+    @for (product of products(); track product.id) {
+      <div class="card">
+        <img [src]="product.image" class="main-img" alt="product">
+
+        <div class="gallery">
+          @for (img of product.images; track img) {
+            <img [src]="img" (click)="changeImage(product, img)" class="thumb-img">
+          }
+        </div>
+
+        <div class="details">
+          <h3>{{ product.name }}</h3>
+          <p class="desc">{{ product.description }}</p>
+          
+          <div class="meta">
+            <span class="price">{{ product.price | number }} ₸</span>
+            <span class="rating">⭐ {{ product.rating }}</span>
+          </div>
+
+          <div class="buttons">
+            <a [href]="product.link" target="_blank" class="buy-link">Перейти в Kaspi</a>
+            <button (click)="shareTelegram(product)" class="share-btn">
+              Поделиться
+            </button>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>
