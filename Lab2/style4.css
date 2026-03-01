@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+}
+
+.left {
+    margin-top: -70px;
+    margin-right: 30px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(112, 513, 432), rgb(345, 134, 53));
+    padding: 10px;
+    gap: 5px;
+}
+
+.logo {
+    font-size: 50px;
+}
+
+.tagline {
+    margin-top: -40px;
+    font-size: 20px;
+}
+
+.login-button {
+    background: #1877f2;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: aqua;
+    transition: 0.5s;
+}
