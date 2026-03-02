@@ -1,0 +1,10 @@
+<div class="list-container">
+  <h2>Products</h2>
+  <div class="grid">
+    <app-product-item 
+      *ngFor="let p of products" 
+      [product]="p" 
+      (remove)="onRemove($event)">
+    </app-product-item>
+  </div>
+</div>
