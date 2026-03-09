@@ -1,0 +1,33 @@
+.header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+.back-btn { 
+    padding: 5px 15px; 
+    cursor: pointer; 
+}
+
+.photo-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    gap: 20px; 
+}
+
+.photo-card { 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    border-radius: 5px; 
+    text-align: center; 
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); 
+}
+
+.photo-title { 
+    font-size: 12px; 
+    margin-top: 10px; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}

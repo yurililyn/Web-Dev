@@ -1,0 +1,20 @@
+@if (loading) {
+  <div>Loading album data...</div>
+} @else {
+  <div class="detail-card">
+    <h2>Album details</h2>
+    <p><strong>Album ID:</strong> {{album.id}}</p>
+    <p><strong>User ID:</strong> {{album.userId}}</p>
+    
+    <div class="edit-section">
+      <label>Name: </label>
+      <input [(ngModel)]="album.title" class="title-input">
+      <button (click)="saveTitle()" class="save-btn">Save</button>
+    </div>
+    
+    <div class="actions">
+      <button (click)="goBack()" class="back-btn">Back</button>
+      <button [routerLink]="['/albums', album.id, 'photos']" class="photos-btn">View photo</button>
+    </div>
+  </div>
+}

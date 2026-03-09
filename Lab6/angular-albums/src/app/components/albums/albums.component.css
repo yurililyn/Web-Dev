@@ -1,0 +1,35 @@
+.album-list { 
+    list-style: none; 
+    padding: 0; 
+}
+
+.album-item { 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px; 
+    border-bottom: 1px solid #eee; 
+    align-items: center; 
+}
+
+.album-link { 
+    text-decoration: none; 
+    color: #333; 
+    font-weight: 500; 
+}
+
+.album-link:hover { 
+    color: #007bff; 
+}
+
+.delete-btn { 
+    background: #dc3545; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+.delete-btn:hover { 
+    background: #c82333; 
+}
