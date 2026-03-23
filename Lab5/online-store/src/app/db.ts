@@ -1,10 +1,11 @@
-import { Product, Category } from './models/product.model';
+import { Product, Category } from './components/models/product.model';
 
 export const CATEGORIES: Category[] = [
   { id: 1, name: 'Smartphones' },
   { id: 2, name: 'Laptops' },
   { id: 3, name: 'Headphones' },
-  { id: 4, name: 'Appliances' }
+  { id: 4, name: 'Appliances' },
+  { id: 5, name: 'asdfsad' }
 ];
 
 export const PRODUCTS: Product[] = [
@@ -251,5 +252,18 @@ export const PRODUCTS: Product[] = [
       'https://resources.cdn-kaspi.kz/img/m/p/h59/ha1/63765477851166.jpg?format=gallery-medium'
     ],
     link: 'https://kaspi.kz/shop/p/blender-pogruzhnoi-braun-mq-535-sauce-belyi-3100034/?c=750000000', likes: 0, categoryId: 4
+  },
+  
+  {
+    id: 45, name: 'Dyson Airwrap HS05 Long с дорожным чехлом и расческами стайлер розовый, золотой', 
+    description: 'Самая полная комплектация, включающая помимо стайлера и 6 насадок, бархатную сумку с магнитным замком и набор из массажной расчёски с гребешком.', 
+    price: 286827, rating: 5.0,
+    image: 'https://resources.cdn-kaspi.kz/img/m/p/h92/h6e/86037605646366.jpg?format=gallery-medium',
+    images: [
+      'https://resources.cdn-kaspi.kz/img/m/p/h92/h6e/86037605646366.jpg?format=gallery-medium',
+      'https://resources.cdn-kaspi.kz/img/m/p/pd9/p57/2476716.png?format=gallery-medium',
+      'https://resources.cdn-kaspi.kz/img/m/p/pf6/p57/2476717.png?format=gallery-medium'
+    ],
+    link: 'https://kaspi.kz/shop/p/dyson-airwrap-hs05-long-s-dorozhnym-chehlom-i-rascheskami-stailer-rozovyi-zolotoi-119489111/?c=750000000', likes: 0, categoryId: 5
   }
 ];

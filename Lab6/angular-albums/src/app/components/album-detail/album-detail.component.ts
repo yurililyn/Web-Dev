@@ -41,7 +41,7 @@ export class AlbumDetailComponent implements OnInit {
 
   saveTitle(): void {
     this.albumService.updateAlbum(this.album).subscribe(() => {
-      alert('Album title updated successfully!');
+      alert('Album title updated successfully');
     });
   }
 
