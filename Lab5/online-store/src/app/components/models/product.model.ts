@@ -10,8 +10,3 @@ export interface Product {
   likes: number;
   categoryId: number;
 }
-
-export interface Category {
-  id: number;
-  name: string;
-}

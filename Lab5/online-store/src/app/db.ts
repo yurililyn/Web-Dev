@@ -1,4 +1,5 @@
-import { Product, Category } from './components/models/product.model';
+import { Product } from './components/models/product.model';
+import { Category } from './components/models/category.model';
 
 export const CATEGORIES: Category[] = [
   { id: 1, name: 'Smartphones' },

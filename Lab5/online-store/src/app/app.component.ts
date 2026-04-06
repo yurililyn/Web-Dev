@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ProductListComponent } from './components/product-list/product-list.component'; // Проверь путь!
-import { Product, Category } from './components/models/product.model';
+import { ProductListComponent } from './components/product-list/product-list.component';
+import { Product } from './components/models/product.model';
+import { Category } from './components/models/category.model';
 import { CATEGORIES, PRODUCTS } from './db';
 
 @Component({
